@@ -1,0 +1,25 @@
+{
+	"name": "janakdom/php-tools",
+	"description": "Just a bunch of tools for myself",
+	"require": {
+		"php": ">=7.4",
+		"ext-iconv": "*",
+		"ext-curl": "*",
+		"ext-mbstring": "*"
+	},
+	"require-dev": {
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dominik Janák",
+			"email": "dev@dominikjanak.cz"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"DominikJanak\\Tools\\": "src/"
+		}
+	}
+}
